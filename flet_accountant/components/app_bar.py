@@ -18,14 +18,14 @@ class TitleBar(ft.AppBar):
         __init__ (): Initializes the title bar.
     """
 
-    def __init__(self):
+    def __init__(self, actions: list[ft.Control] | None = None):
         """
         Initializes the title bar.
 
         Calls the parent class's constructor and sets up the title container with a
         centered row of widgets.
         """
-        super().__init__()
+        super().__init__(actions=actions)
 
         self.title = ft.Container(
             ft.Row(
