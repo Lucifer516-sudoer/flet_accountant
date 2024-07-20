@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flet-accountant"
+version = "0.1.0"
+description = ""
+authors = ["Lucifer516-sudoer <harishvengatachalam02092005@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+accountant = {path = "../accountant"}
+flet = "^0.23.2"
+rich = "^13.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
