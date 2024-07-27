@@ -7,9 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-accountant = {path = "../accountant"}
 flet = "^0.23.2"
 rich = "^13.7.1"
+flet-contrib = "^2024.3.6"
+accountant = {path = "../accountant"}
 
 
 [build-system]

@@ -53,7 +53,7 @@ class NavRail(ft.UserControl):
             selected_index=0,
         )
 
-        self.contents = ft.Container()
+        self.contents = ft.Container(expand=True)
         self.expand = True
 
     def did_mount(self):

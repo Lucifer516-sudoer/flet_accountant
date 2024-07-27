@@ -2,7 +2,7 @@ import flet as ft
 
 
 class ThemeSwitcher(ft.IconButton):
-    def __init__(self, icon):
+    def __init__(self, icon: str | None = None):
         super().__init__(icon=icon, on_click=self._on_click)
 
     def _on_click(self, e: ft.ControlEvent):

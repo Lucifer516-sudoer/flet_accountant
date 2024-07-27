@@ -1,5 +1,5 @@
 import flet as ft
-from accountant.interfaces.config import APP_NAME
+from flet_accountant.config import APP_NAME
 
 
 class TitleBar(ft.AppBar):

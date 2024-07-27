@@ -356,6 +356,20 @@ uvicorn = {version = ">=0,<1", extras = ["standard"]}
 watchdog = ">=4.0.0,<5.0.0"
 
 [[package]]
+name = "flet-contrib"
+version = "2024.3.6"
+description = "Flet controls by the community"
+optional = false
+python-versions = ">=3.8,<4.0"
+files = [
+    {file = "flet_contrib-2024.3.6-py3-none-any.whl", hash = "sha256:cff94fafb56112847dac8dc91f9a462b648755e2f1ed669bab506dcf94e7bdde"},
+    {file = "flet_contrib-2024.3.6.tar.gz", hash = "sha256:49123f96f2d020c61f52ff011b962a7e179a840f3d787c14dba6b74d596458d0"},
+]
+
+[package.dependencies]
+flet-core = ">=0,<1"
+
+[[package]]
 name = "flet-core"
 version = "0.23.2"
 description = "Flet core library"
@@ -1405,4 +1419,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "00b16bf9b7bc65ecc8f57bddbc2bb489d68ee02614098498c56973410f58f8ff"
+content-hash = "b584cefc7b7547202b8d9c99e4ef35a2b26c8edee4e7debfb4159ecfd4c0cf93"
